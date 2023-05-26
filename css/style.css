@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+	text-align: justify;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #8084B1;
+}
+
+h1{
+	color: white;
+}
+
+h2, h3{
+
+font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.image-container {
+  width: 200px; /* Largeur souhaitée pour le conteneur de l'image */
+  height: 100px; /* Hauteur souhaitée pour le conteneur de l'image */
+  overflow: hidden; /* Cache le contenu de l'image en dehors du conteneur */
+}
+
+.image-container img {
+  width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
+  height: 100%; /* Assurez-vous que l'image occupe toute la hauteur du conteneur */
+  object-fit: cover; /* Redimensionne l'image pour remplir le conteneur sans déformation */
+  clip-path: (0%); /* Rognage en forme de cercle à 50% du conteneur */
+
+} 
